@@ -1,0 +1,24 @@
+/*
+ *
+ *  Demostrate neighbor detection in deparate processes
+ *
+ *
+ *  
+ *
+ */
+
+Assumption:
+There are 6 processes which are runnung parallely.
+each has its own neighbor info stored in a file A,B,C... till F respectively.
+
+To Run the Demo.
+Open 6 terminals and run the below programs in each window respectively.
+
+./s A
+./s B
+./s C
+./s D
+./s E
+./s F
+
+the processes will communicate with each other and display their calculated adjacency tables.
